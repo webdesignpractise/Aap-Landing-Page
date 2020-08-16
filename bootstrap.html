@@ -1,0 +1,174 @@
+
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bootstrap Aap Landing</title>
+
+    <style>
+
+        body{
+
+             font-family:sans-serif;
+             position:relative;
+
+          }
+
+          .login_element{
+
+             margin-right:6px;
+          }
+
+          .jumbotron{
+
+              background-image: url("background.jpg");
+              background-size: cover;
+              text-align:center;
+              margin-top:50px;
+          }
+
+          #email{
+
+              width:300px;
+          }
+
+          #appSummary{
+
+            text-align:center;
+            margin-top:50px;
+            margin-bottom:70px;
+          }
+
+          img{
+
+            height:400px;
+          }
+
+          .card-title{
+
+            font-weight:bold;
+            font-size: 130%;
+          }
+
+          #aapStore{
+
+            width:200px;
+            height:70px;
+            border-radius:11px;
+          }
+
+          #footer{
+
+            background-color:aqua;
+            text-align:center;
+            padding-top:150px;
+            padding-bottom: 250px;
+            margin-top:150px;
+          }
+
+    </style>
+
+  </head>
+
+  <body data-spy="scroll" data-target="#navbar" data-offset="200">
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light "style="background-color:rgb(215, 236, 247)" id="navbar">
+      <a class="navbar-brand" href="#">MyApp</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Download The App</a>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <input class="form-control login_element" type="email" placeholder="Email" aria-label="Email">
+          <input class="form-control login_element" type="password" placeholder="Password" aria-label="Password">
+          <button class="btn btn-success login_element" type="submit">Login</button>
+        </form>
+      </div>
+    </nav>
+    
+    <div class="jumbotron" id="jumbotron">
+      <h1 class="display-4">My Awesome App!</h1>
+      <p class="lead" >This is why YOU should download this fantastic app!</p>
+      <hr class="my-4">
+      <p>want ot know more? join our mailing list!</p>
+      <form class="form-inline justify-content-center">
+        <div class="form-group">
+          <div class="input-group">
+            <div class="input-group-text">@</div>  
+            <input type="email" class="form-control" id="email" placeholder="Your Email">
+            <button type="submit" class="btn btn-primary" style="margin-left:6px;">Sign Up</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="container">
+      <div id="appSummary">
+          <h1>Why This App Is Awesome</h1>
+          <p class="lead">Summary,once again,of your app's awesomeness</p>
+      </div>
+    </div>
+
+    <div class="container" id="about">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="image/currentaffairs.jpg">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa fa-anchor"></i>  Current Affairs Updata</h5>
+            <p class="card-text">This is a coolest feature of this app,here you can get daily's current affairs update.
+            <p class="card-text"><small class="text-muted">Last updated 1 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="image/lecture.jpg">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa fa-bicycle"></i>  Video Lecture</h5>
+            <p class="card-text">Here topic wise high quality video lectures are available by the highly educated faculty.This makes this app awesome.For enjoying this lectures and get your dream job,download this app now</p>
+            <p class="card-text"><small class="text-muted">Last updated 1 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="image/jobalert.jpg">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa fa-birthday-cake"></i>  Job Alerts</h5>
+            <p class="card-text">This is another coolest feature of this app,with study you can get a job alert matching with your profile.This alerts get updated and have a notiffication on your notification menu.</p>
+            <p class="card-text"><small class="text-muted">Last updated 1 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="footer">
+      <h1>Download the app!</h1>
+      <p>Really,why should I download this app??</p>
+      <img id="aapStore" href="#" src="image/download.png">
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
+</html>
